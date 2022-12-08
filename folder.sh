@@ -1,5 +1,5 @@
 sudo mkhomedir_helper Nejc
-cd/Nejc
+cd /Nejc
 sudo mkdir Dekstop,Documents,Downloads,Pictures,Videos
 for i in {1..5}
 do
