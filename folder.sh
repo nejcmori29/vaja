@@ -1,5 +1,5 @@
-sudo mkhomedir_helper nejcc
-cd /nejcc
+sudo mkhomedir_helper Nejc
+cd /Nejcc
 sudo mkdir Dekstopp,Documentss,Downloadss,Picturess,Videoss
 for i in {1..5}
 do
