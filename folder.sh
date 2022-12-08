@@ -8,5 +8,5 @@ done
 cd ..
 for userji in {1..5}
 do
-sudo useradd uporabnik$userji -y
+sudo useradd uporabnik$userji
 done
