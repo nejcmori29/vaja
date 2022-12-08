@@ -1,14 +1,14 @@
 sudo mkhomedir_helper Nejc
 cd /Nejcc
 sudo mkdir Dekstopp,Documentss,Downloadss,Picturess,Videoss
-for i in {1..5}
+for mape in {1,2,3,4,5}
 do
-sudo mkdir mapa$i
+sudo mkdir mapa$mape
 done
 cd ..
-for l in {1..5}
+for userji in {1..5}
 do
-sudo adduser uporabnik&l -y
+sudo adduser uporabnik&userji -y
 sudo mkdir home&l
 done
 echo "0"
