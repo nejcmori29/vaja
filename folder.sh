@@ -8,6 +8,6 @@ done
 cd ..
 for i in {1..5}
 do
-sudo adduser user&i
-sudo mkdir domov&i
+adduser user&i
+mkdir domov&i
 done
