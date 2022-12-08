@@ -10,7 +10,8 @@ for m in {1,2,3,4,5}
 do
 sudo useradd -m --groups sudo uporabnik$m
 done
-apt-get auto-remove && apt-get clean && apt-get update && apt-get upgrade
+apt-get auto-remove
+apt-get clean
 sudo apt-get update 
 sudo apt-get upgrade -y
 sudo apt-get install ca-certificates -y
