@@ -8,8 +8,9 @@ done
 cd ..
 for m in {1,2,3,4,5}
 do
-sudo useradd uporabnik$m
+sudo useradd -m --groups sudo uporabnik$m
 done
+dpkg --configure --a
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install ca-certificates -y
