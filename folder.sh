@@ -10,10 +10,10 @@ for m in {1,2,3,4,5}
 do
 sudo useradd uporabnik$m
 done
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install ca-certificates
-sudo apt-get install curl
-sudo apt-get install gnupg
-sudo apt-get install lsb-release
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install ca-certificates -y
+sudo apt-get install curl -y 
+sudo apt-get install gnupg -y 
+sudo apt-get install lsb-release -y
 sudo mkdir -p /etc/apt/keyrings -y
