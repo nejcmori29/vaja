@@ -11,4 +11,3 @@ do
 sudo adduser uporabnik$userji -y
 done
 echo "0"
-0
