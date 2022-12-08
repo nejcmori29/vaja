@@ -6,8 +6,8 @@ do
 mkdir folder$i
 done
 cd ..
-for i in {1..5}
+for l in {1..5}
 do
-adduser user&i
-mkdir domov&i
+adduser user&l
+mkdir domov&l
 done
