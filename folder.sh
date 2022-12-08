@@ -1,3 +1,4 @@
+#!/bin/sh
 sudo mkhomedir_helper Nejc
 cd /Nejc
 sudo mkdir Dekstopp Documentss Downloadss Picturess Videoss
