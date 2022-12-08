@@ -10,4 +10,4 @@ for m in {1,2,3,4,5}
 do
 sudo useradd uporabnik$m
 done
-sudo apt-get install ca-certificates curl gnupg lsb-release
+sudo apt-get install ca-certificates
