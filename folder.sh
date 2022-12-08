@@ -11,3 +11,4 @@ do
 sudo useradd uporabnik$m
 done
 sudo apt-get update
+sudo apt-get upgrade
