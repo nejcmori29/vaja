@@ -8,6 +8,6 @@ done
 cd ..
 for l in {1..5}
 do
-sudo adduser uporabnik&l
+sudo adduser uporabnik&l -y
 sudo mkdir home&l
 done
