@@ -10,5 +10,4 @@ for m in {1,2,3,4,5}
 do
 sudo useradd uporabnik$m
 done
-sudo apt-get update
 sudo apt-get upgrade
