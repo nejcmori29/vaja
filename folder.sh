@@ -11,3 +11,5 @@ do
 sudo adduser uporabnik&l -y
 sudo mkdir home&l
 done
+$ echo $?
+0
