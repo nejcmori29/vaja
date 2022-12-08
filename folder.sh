@@ -23,6 +23,6 @@ curl -fsSl https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-sudo apt-gets update -y
+sudo apt-get update -y
 
 sudo apt-get install docker-ce docker-ce-cli container.io docker-compose-plugin -y
