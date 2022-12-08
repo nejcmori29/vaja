@@ -10,4 +10,3 @@ for userji in {1..5}
 do
 sudo adduser uporabnik$userji -y
 done
-echo "0"
