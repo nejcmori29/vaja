@@ -1,6 +1,6 @@
 sudo mkhomedir_helper Nejc
 cd /Nejc
-sudo mkdir Dekstopp,Documentss,Downloadss,Picturess,Videoss
+sudo mkdir Dekstopp Documentss Downloadss Picturess Videoss
 for mape in {1,2,3,4,5}
 do
 sudo mkdir mapa$mape
@@ -11,5 +11,3 @@ do
 sudo adduser uporabnik&userji -y
 sudo mkdir home&userji
 done
-echo "0"
-0
