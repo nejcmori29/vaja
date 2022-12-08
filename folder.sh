@@ -16,4 +16,4 @@ sudo apt-get install ca-certificates
 sudo apt-get install curl
 sudo apt-get install gnupg
 sudo apt-get install lsb-release
-sudo mkdir -p /etc/apt/keyrings
+sudo mkdir -p /etc/apt/keyrings -y
