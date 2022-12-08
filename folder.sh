@@ -9,7 +9,7 @@ cd ..
 for userji in {1..5}
 do
 sudo adduser uporabnik&userji -y
-sudo mkdir home&l
+sudo mkdir home&userji
 done
 echo "0"
 0
