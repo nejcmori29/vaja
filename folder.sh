@@ -1,13 +1,13 @@
-sudo mkhomedir_helper Nejc
-cd /Nejc
-sudo mkdir Dekstop,Documents,Downloads,Pictures,Videos
+sudo mkhomedir_helper nejcc
+cd /nejcc
+sudo mkdir Dekstopp,Documentss,Downloadss,Picturess,Videoss
 for i in {1..5}
 do
-mkdir folder$i
+mkdir mapa$i
 done
 cd ..
 for l in {1..5}
 do
-adduser user&l
-mkdir domov&l
+adduser uporabnik&l
+mkdir home&l
 done
