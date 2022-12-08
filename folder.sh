@@ -1,5 +1,5 @@
 sudo mkhomedir_helper Nejc
-cd /Nejcc
+cd /Nejc
 sudo mkdir Dekstopp,Documentss,Downloadss,Picturess,Videoss
 for mape in {1,2,3,4,5}
 do
