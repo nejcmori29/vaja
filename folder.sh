@@ -6,7 +6,7 @@ do
 sudo mkdir mapa$mape
 done
 cd ..
-for userji in {1..5}
+for m in {1,2,3,4,5}
 do
-sudo useradd uporabnik$userji
+sudo useradd uporabnik$m
 done
